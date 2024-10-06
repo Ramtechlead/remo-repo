@@ -1,0 +1,248 @@
+
+/* *{
+    margin:0;
+    padding: 0;
+
+} */
+
+body{
+    margin-left:15px;
+    margin-right:12px;
+}
+.container{
+
+    width: 1200px;
+    /* margin-left:auto;
+    margin-right:auto; */
+    margin: 0 auto;
+
+
+}
+
+header{
+    padding:25px 25px;
+}
+h1{
+    color:bisque;
+    font-size:40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom:12px;
+}
+
+h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom:15px;
+}
+
+h3{
+    font-size:30px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+
+h4{
+    font-size:25px;
+    text-align: center;
+    font-family:sans-serif;
+    margin-bottom: 12px;
+}
+
+p{
+    font-size:20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 12px 0px 15px 0px;
+
+}
+
+li{
+    font-family: sans-serif;
+    font-size:20px;
+    margin-bottom: 12px;
+    margin-left:14px;
+}
+/* 
+.heading-first{
+    background-color: aqua;
+
+} */
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    font-size:28px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#480393;
+}
+
+
+.challage-container{
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid Red;
+    font-family: 'Times New Roman', Times, serif !important;
+    position: relative;
+}
+
+.product-title{
+
+    padding: 20px 10px 20px 10px;
+    background-color: rgb(121, 126, 121);
+    text-align: center;
+    margin-bottom: 0;
+
+
+}
+
+.price{
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+
+}
+.shipping{
+    margin-top: 0 !important;
+    font-size:10px;
+    text-transform: uppercase;
+    color:gray;
+    
+
+}
+
+.product-description{
+  margin-bottom: 0;
+
+}
+
+.more-info{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: black;
+}
+
+.details-title{
+    margin: 12px 0 0 0;
+
+}
+.details-list{
+    margin: 10px 0 0 12px;
+    
+}
+
+.add-cart{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #480393;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.add-cart:hover{
+    background-color: red;
+}
+
+.position-button{
+    position: absolute;
+     right: 10px;
+    /* bottom:10px; */ 
+    padding: 20px;
+    /* top:50px; */
+
+
+}
+
+h3{
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.header-h3::after{
+    content:"TOP";
+    background-color: #949494;
+    display:inline-block;
+    padding:20px 10px;
+    color: rgb(255, 0, 0);
+    position:absolute;
+    right:-25px;
+    top:-20px;
+
+
+
+}
+
+
+
+/*  Float Layouts */
+
+.author-img{
+    float: left;
+
+}
+
+.author{
+    margin-top:10px;
+    margin-left:20px;
+
+    float: left;
+
+}
+
+
+h1{
+    float: left;
+}
+
+nav{
+    float:right;
+}
+
+.main-header{
+    padding: 20px 20px 20px 20px;
+    background-color:red;
+    margin-bottom: 20px;
+    
+
+}
+
+.main-header::after{
+    display: block;
+    content: "";
+    clear: both;
+
+
+}
+
+article{
+float: left;
+width:800px;
+
+
+}
+
+aside{
+background-color:aqua;
+float: right;
+
+width: 300px;
+
+}
+
+aside{
+    box-sizing:border-box;
+    padding: 40px 90px;
+}
+
+
+footer{
+clear:both;
+padding: 20px 20px 20px 20px;
+margin-top:10px;
+float: left;
+width:1200px;
+}
